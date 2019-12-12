@@ -98,14 +98,12 @@ def annotate_objects(annotator, results, labels):
     ymin = int(ymin * CAMERA_HEIGHT)
     ymax = int(ymax * CAMERA_HEIGHT)
     
-    # print("ymin: " + str(ymin) + " xmin:" + str(xmin) + " ymax:" + str(ymax) + " xmax:" + str(xmax))
-
-
     # Overlay the box, label, and score on the camera preview
     annotator.bounding_box([xmin, ymin, xmax, ymax])
     annotator.text([xmin, ymin-60],
                    '%s\n%.2f' % (labels[obj['class_id']], obj['score']))
 
+    # Saját kód kezdete
     if (xmin < 0): xmin = 0
     if (xmax < 0): xmax = CAMERA_WIDTH
     if (ymin < 0): ymin = 0
@@ -113,6 +111,7 @@ def annotate_objects(annotator, results, labels):
 
     if(ymax > CAMERA_HEIGHT * 0.5 and xmin > CAMERA_WIDTH * 0.1 and xmax < CAMERA_WIDTH * 0.9):
     	annotator.text([5, 35], "STOP")
+    # Saját kód vége
 
 def main():
   parser = argparse.ArgumentParser(
