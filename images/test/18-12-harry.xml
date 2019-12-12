@@ -1,0 +1,26 @@
+<annotation>
+	<folder>12</folder>
+	<filename>scene00151.jpg</filename>
+	<path>C:\Users\Eggsy\Pictures\10 25 harry\12\scene00151.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>608</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Harry</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>11</xmin>
+			<ymin>275</ymin>
+			<xmax>125</xmax>
+			<ymax>490</ymax>
+		</bndbox>
+	</object>
+</annotation>

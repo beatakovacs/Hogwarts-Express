@@ -1,0 +1,26 @@
+<annotation>
+	<folder>38</folder>
+	<filename>scene00151.jpg</filename>
+	<path>C:\Users\Eggsy\Pictures\10 25 ginny\38\scene00151.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>608</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Ginny</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>322</xmin>
+			<ymin>301</ymin>
+			<xmax>451</xmax>
+			<ymax>371</ymax>
+		</bndbox>
+	</object>
+</annotation>

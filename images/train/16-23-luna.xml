@@ -1,0 +1,26 @@
+<annotation>
+	<folder>23</folder>
+	<filename>scene00121.jpg</filename>
+	<path>D:\luna_sirius\10 25 luna\23\scene00121.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>608</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Luna</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>523</xmin>
+			<ymin>246</ymin>
+			<xmax>606</xmax>
+			<ymax>399</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>25</folder>
+	<filename>scene00511.jpg</filename>
+	<path>C:\Users\Eggsy\Pictures\10 25 voldemort\25\scene00511.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>800</width>
+		<height>608</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Voldemort</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>326</ymin>
+			<xmax>232</xmax>
+			<ymax>607</ymax>
+		</bndbox>
+	</object>
+</annotation>
